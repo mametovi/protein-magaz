@@ -1,0 +1,428 @@
+
+
+@media (max-width: 1199.98px) {
+	/* */
+
+	/* */
+}
+
+@media (max-width: 991.98px) {
+	/* */
+	.bottom-fl {
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
+	.bottom-item {
+		margin-bottom: 20px;
+	}
+	.icon-wrap {
+		margin-right: 25px;
+	}
+	/* */
+	.inner-flex {
+		flex-wrap: wrap-reverse;
+		justify-content: space-around;
+	}
+	.inner-wrapper {
+		margin-top: 6px;
+	}
+	.inner-wrap {
+		flex-direction: column;
+	}
+	.logo {
+    margin-bottom: 20px;
+  }
+  .inner-wrapper {
+  	margin-bottom: 20px;
+  }
+
+
+  #menuToggle {
+  	display: flex !important;
+  }
+  ul.menu {
+  	display: none;
+  	position: fixed;
+  	top: 0px;
+  	left: -100%;
+  	width: 87%;
+  	height: 100%;
+  	background: rgb(3, 107, 185, 0.5);
+  	z-index: 2;
+  	display: block;
+  	transition: all 0.7s;
+  }
+	ul.menu li {
+		margin-bottom: 20px;
+		background: #039eb93d;
+		padding: 10px 0 10px 0;
+		text-align: center;
+	}
+	ul.menu li:hover {
+		background: #0310b93d;
+	}
+	.ob-wrapper span {
+    bottom: 26px !important;
+    right: 346px !important;
+  }
+
+	/* */
+  .basket__wrapper {
+  	flex-wrap: wrap-reverse;
+  	justify-content: space-between;
+  }
+  .choose-taste .form-control {
+  	width: 100%;
+  }
+	.choose-tastes {
+		flex-direction: column-reverse;
+	}
+	.choose-tastes .form-contr {
+		width: 100%;
+		margin-bottom: 14px;
+	}
+	.choose-tastes .form-contro {
+		width: 100%;
+	}
+
+	.basket__span {
+		width: 100%;
+	}
+	.cursor {
+		margin-bottom: 15px;
+	}
+	.libra {
+		margin-bottom: 15px;
+	}
+	.heart {
+		margin-bottom: 15px;
+	}
+
+	.new__2 {
+		margin-top: 21px;
+	}
+
+	.new__3 {
+		margin-top: 21px;
+	}
+
+	.new__4 {
+		margin-top: 21px;
+	}
+
+	.discount_1 {
+		margin-top: 21px;
+	}
+
+	.sorting-wrap {
+		flex-wrap: wrap;
+		margin-top: 20px;
+	}
+	ul.pagination.pagination-sm {
+		margin-top: 29px;
+	}
+  /* */
+  .prise-slid p {
+    justify-content: center;
+   }
+
+
+   .evolution__wrap {
+   	flex-direction: column;
+   }
+
+   .evolution__wrap img{
+   	margin: 0 auto;
+   }
+
+   .text .text-one {
+   	min-width: 0;
+   }
+
+   .basement-wpar {
+   	flex-wrap: wrap;
+   	width: 96%;
+   }
+
+   .basement-item {
+   	margin-bottom: 30px;
+   }
+
+   .prise-slid {
+   	display: block;
+   }
+
+
+
+
+   .slider-wrapper {
+   	flex-direction: column;
+   }
+   .slider_item {
+   	margin-bottom: 20px;
+   }
+   .brand {
+   	width: 100% !important;
+   }
+   .vertical-wrap {
+   	padding: 0 !important;
+   }
+	 .whey img {
+	 	display: none;
+	 }
+	 .indicators-wrap {
+    padding: 10px 20px;
+  }
+  .sorting-date {
+  	margin-top: 30px;
+  }
+  div#nav-tab {
+  	padding-left: 0 !important;
+  }
+  a.nav-item {
+  	padding: 11px 20px 14px 20px !important;	
+  }
+
+  .basket__wrapper .basket__span a {
+  	display: flex;
+  	text-align: center;
+  	flex-direction: column;
+  	width: 100%;
+  }
+} 
+
+@media (max-width: 767.98px) {
+	/* */
+	.navigation {
+		margin-bottom: 20px;
+		margin-right: 0 !important;
+	}
+	/* */
+	.form-group .img {
+		position: absolute;
+		top: 1px;
+		right: 40px;
+	}
+	.inner__item form {
+		flex-direction: column;
+	}
+	.form-group .form-control {
+		width: 100% !important;
+	}
+	
+	.ob-wrapper span {
+		display: none;	
+	}
+	#menuToggle {
+    right: 7px !important;
+  }
+
+  .protein__item:nth-child(3) {
+  	display: none;
+  }
+  .protein__item:nth-child(2) {
+  	margin-right: 0;
+  }
+
+
+
+  .indicators-wrap {
+  	flex-direction: column;
+  }
+  div#nav-tab {
+  	flex-direction: column;
+  	text-align: center;
+  }
+  .nav-tabs .nav-item {
+    border-top-right-radius: 0  !important;
+    border-top-left-radius: 0 !important;
+  }
+  .whey img {
+  	display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+	/* */
+	.icon-wrap {
+		margin-right: 25px;
+		margin-bottom: 10px;
+	}
+	/* */
+	.logo {
+		margin-right: 0 !important;
+	}
+/* */
+	.inner__item .form-control {
+		width: 100% !important;
+	}
+	.inner-wrapper {
+		margin-top: 6px;
+		width: 100%;
+  	margin-bottom: 10px;
+	}
+	.inner__item {
+		width: 100%;
+	}
+	.inner__item form {
+		margin-right: 0 !important;
+	}
+	.form-group .img {
+    right: 2px;
+  }
+  .inner-icon {
+  	display: none;
+  }
+  .alphabet {
+		display: none !important;
+	}
+	.magister {
+    margin: 0 auto;
+  }
+	/* */
+	
+
+
+
+	.reviews_wrap {
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+	}
+	.quantity-wrap {
+		flex-direction: column;
+	}
+	.quantitys .minus, .quantitys .plus {
+    width: 100%;
+    text-align: center;
+  }
+  .product-order {
+  	margin-bottom: 20px;
+  }
+  .quantity-two {
+  	width: 100%;
+  	display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .quantity-three {
+  	width: 100%;
+  	flex-direction: column;
+  	display: flex;
+  }
+
+  .grams_wrap .nav-tabs {
+    flex-direction: column;
+  }
+  .grams_wrap .nav-items {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 461px) {
+	.inner__item .form-control {
+		width: 100%;
+	}
+	.alphabet {
+		display: none;
+	}
+	
+
+	.protein__wrapper {
+		flex-direction: column;
+	}
+	.protein__item {
+		margin-bottom: 20px;
+	}
+	.protein__item:nth-child(1) {
+		margin-right: 0;
+	}
+  .reply {
+  	flex-direction: column;
+  }
+
+
+}
+
+@media (max-width: 414px) {
+	.bottom-fl {
+		flex-direction: column-reverse;
+	}
+	.bottom-item li {
+    margin-left: 0 !important;
+    margin-bottom: 10px;
+  }
+  .bottom-item {
+  	flex-direction: column;
+  	align-items: flex-start !important;
+  }
+	.bottom-item a:nth-child(4) {
+		margin-left: 0 !important;
+	}
+  .navigation {
+
+  }
+  .bottom-item li:after {
+  	display: none;
+  }
+
+  .evolution__wrap img {
+  	width: 100%;
+  }
+  .evolution-text .subh1 {
+  	min-width: 0;
+  }
+
+
+
+
+
+  .span-h1 {
+    font-size: 19px !important;
+  }
+
+  .availability-wrap {
+    flex-direction: column;
+  }
+  .social-network {
+  	flex-direction: column;
+  }
+  .social-network span{
+  	margin-right: 0 !important;
+  	
+  }
+  .social-network {
+  	margin-top: 0 !important;
+  }
+
+  .extradition-wrap {
+    align-items: flex-start !important;
+    flex-direction: column;
+  }
+
+  .span-br {
+  	flex-direction: column;
+  }
+
+  .subspan-br {
+  	flex-direction: column;
+  	align-items: flex-start !important;
+  }
+  .rating {
+  	flex-direction: column;
+  	align-items: flex-start !important;
+  }
+  .span-end {
+  	flex-direction: column;
+  }
+  .numbers {
+  	flex-direction: column;
+  }
+  .cataolg__item {
+  	flex-wrap: wrap;
+  }
+  .description .h5 {
+    font-size: 14px !important;
+ }
+}
